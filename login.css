@@ -1,0 +1,106 @@
+
+body {
+    background: #363636;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: white;  
+    position: center;
+}
+.login {
+    height: 100vh;
+    background: linear-gradient(120deg,black,grey) !important;
+  }
+
+.modal-content{
+    background: black;
+    color: white;
+}
+
+.text-info{
+    color: white !important;  
+    font-family: sans-serif;
+    border-color: black;
+}
+
+#submit{
+ 
+    height: 48px;
+    width: 100%;
+    padding-left: 8px;
+    outline: none;
+    position: relative;
+    background: linear-gradient(120deg, black,grey,lightgrey);
+    background-size: 200%;
+    margin-bottom: 32px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: unset;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+#submit:hover{
+    background-position: right;
+}
+#btn_logout{
+    background: black;
+    color: white;
+    border-radius: 3px;
+    border: solid thin black;
+    margin: 15px;
+    padding: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 20px;
+    position: relative;
+    transition: 1ms;
+    background-size: 100%;
+}
+.btn-info{
+    background: black !important;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    border-color: white;
+    border-radius: 20px;
+}
+.btn-info:hover{
+    border-color: white !important;
+}
+.btn-salvar{
+    background: white!important;
+    color:black;
+    border: black !important;
+    border-radius: 20px;
+    padding: 5px;
+    font-weight: bold;
+    transition: 1s;
+}
+.btn-salvar:hover{
+    background-color:green !important;
+    color:white;
+}
+.btn-secondary{
+    padding: 5px;
+    color:black;
+    background:white;
+    border-radius: 20px;
+    border-color: black !important;
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    background-color: red !important;
+}
+
+.card-footer text-left text-white{
+    text-align: right;
+    color: white;
+}
+
+.form-group a {
+    text-align: right;
+    font-size: 15px;
+    color: white;
+}
